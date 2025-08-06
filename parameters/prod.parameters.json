@@ -1,0 +1,32 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "East US 2"
+    },
+    "commonTags": {
+      "value": {
+        "Environment": "Production",
+        "CostCenter": "IT",
+        "Owner": "DevTeam",
+        "Project": "Foundation"
+      }
+    },
+    "enablePurgeProtection": {
+      "value": true
+    },
+    "storageAccountSku": {
+      "value": "Standard_RAGRS"
+    },
+    "apimSku": {
+      "value": "Standard"
+    },
+    "publisherEmail": {
+      "value": "REPLACE_WITH_YOUR_EMAIL@yourdomain.com"
+    },
+    "publisherName": {
+      "value": "REPLACE_WITH_YOUR_TEAM_NAME"
+    }
+  }
+}
